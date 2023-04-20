@@ -37,6 +37,7 @@ una vez creado el entorno virtual e instaladas las librerias se debera abrir una
 - localhost:5000/api/departments/add/csv
 
 
-##Ejercicio 2 SQL:
+##Ejercicio 2 SQL (Para este caso no tuve tiempo de disponibilizarlo mediante API, estan solo las consultas SQL):
 - las consultas SQL se encuentran dentro de un archivo llamado ejercicio2.sql en la ubicacion globant/sql/
+
 
