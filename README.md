@@ -4,8 +4,12 @@
 en este proyecto se encontrara una API realizada con Python y Flask la cual permite insertar registros a 3 tablas diferentes en una instancia de base de datos PostgreSQL desde un archivo CSV y tambien permite listar los registros que se encuentran en dichas tablas.
 
 #Requerimientos :
+
 Dentro de la carpeta globant, se encuentra un archivo llamado requirements.txt en el cual se encuentran todas las librerias necesarias para el funcionamiento de la aplicacion,
-ademas se debera contar con una instancia de base de datos PostgreSQL la cual tiene una base de datos llamada Globan y dentro del schema Public se deberan recrear las tablas cuyos DDL se encuentran en la carpeta globant/sql/ddl 
+ademas se debera contar con una instancia de base de datos PostgreSQL la cual tiene una base de datos llamada Globan y dentro del schema Public se deberan recrear las tablas cuyos DDL se encuentran en la carpeta globant/sql/ddl.
+Ademas se deberan setear las crendenciales para el acceso a esta base de datos dentro del archivo  globant/.env en las variables 
+-PGSQL_USER={usuario}
+-PGSQL_PASSWORD={password}
 
 #Funcionamiento :
 
