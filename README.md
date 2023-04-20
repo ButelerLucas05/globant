@@ -18,21 +18,21 @@ una vez creado el entorno virtual e instaladas las librerias se debera abrir una
 - localhost:5000/api/jobs
 - localhost:5000/api/departments
 
-- Listar un solo registro de la tabla utilizando el id como clave , para listar se debera reemplazar la cadena {id} por el id que se desea buscar [GET]
+2- Listar un solo registro de la tabla utilizando el id como clave , para listar se debera reemplazar la cadena {id} por el id que se desea buscar [GET]
 
-1 - localhost:5000/api/employees/{id}
-2 - localhost:5000/api/jobs/{id}}
-3 - localhost:5000/api/departments/{id}
+- localhost:5000/api/employees/{id}
+- localhost:5000/api/jobs/{id}}
+- localhost:5000/api/departments/{id}
 
-- Agregar registros en base a un archivo .CSV, para esto se debera enviar dentro de un form-data el archivo csv, con el nombre file como clave, tal cual se muestra en la imagen de ejemplo que esta adjunta [POST]
+3- Agregar registros en base a un archivo .CSV, para esto se debera enviar dentro de un form-data el archivo csv, con el nombre file como clave, tal cual se muestra en la imagen de ejemplo que esta adjunta [POST]
 
 ![imagen](https://user-images.githubusercontent.com/47366982/233232752-9795c93f-a6fb-494a-984d-8b21eaa65385.png)
 
-1 - localhost:5000/api/employees/add/csv
-2 - localhost:5000/api/jobs/add/csv
-3 - localhost:5000/api/departments/add/csv
+- localhost:5000/api/employees/add/csv
+- localhost:5000/api/jobs/add/csv
+- localhost:5000/api/departments/add/csv
 
 
 ##Ejercicio 2 SQL:
-- las consultas SQL se encuentran dentro de un archivo llamada ejercicio2.sql en la ubicacion globant/sql/
+- las consultas SQL se encuentran dentro de un archivo llamado ejercicio2.sql en la ubicacion globant/sql/
 
