@@ -12,11 +12,11 @@ ademas se debera contar con una instancia de base de datos PostgreSQL la cual ti
 para iniciar la aplicacion se debera  crear un entorno virtual en el cual se deberan instalar las librerias detalladas en el archivo requirements.txt,
 una vez creado el entorno virtual e instaladas las librerias se debera abrir una terminal dentro de la carpeta globant y ejecutar el comando python app.py para darle inicio al servidor y poder realizar las diferentes peticiones a las URL debajo mecionadas.
 
-- Listar todos los registros de la tabla [GET]
+1- Listar todos los registros de la tabla [GET]
 
-1 - localhost:5000/api/employees
-2 - localhost:5000/api/jobs
-3 - localhost:5000/api/departments
+- localhost:5000/api/employees
+- localhost:5000/api/jobs
+- localhost:5000/api/departments
 
 - Listar un solo registro de la tabla utilizando el id como clave , para listar se debera reemplazar la cadena {id} por el id que se desea buscar [GET]
 
