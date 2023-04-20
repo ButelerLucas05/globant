@@ -1,0 +1,9 @@
+Flask==2.2.3
+Flask-Cors==3.0.10
+numpy==1.24.2
+pandas==2.0.0
+psycopg2==2.9.6
+python-dateutil==2.8.2
+python-decouple==3.8
+python-dotenv==1.0.0
+Werkzeug==2.2.3
